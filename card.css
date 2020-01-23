@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap');
+
+.card-title-content {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 280px;
+    height: 200px;
+    color: #39424D;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-title-content:hover {
+    height: 650px;
+    width: 300px;
+}
+
+.link-fotter {
+    text-decoration: none;
+    color: #04b7ac;
+    font-size: 20px;
+}
+
+.contenedor-more-signo {
+    background-color: #04b7ac;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 255px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-more-signo .fa {
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+.card {
+    /*Temporal*/
+    margin: 30px auto;
+    background-size: cover;
+    width: 300px;
+    height: 650px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
